@@ -1,0 +1,4 @@
+exports.config = {
+    domain: "",
+    topic: ""
+};

@@ -1,0 +1,21 @@
+{
+  "name": "tinker-server-demo",
+  "version": "1.0.0",
+  "description": "nodejs server that pushes to notification to android device whenever a new app version exists and serve static link to the new app apk",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^8.6.0",
+    "fs-extra": "^8.1.0",
+    "localtunnel": "^1.9.2",
+    "lodash": "^4.17.15",
+    "nodemon": "^1.19.2",
+    "uuid": "^3.3.3",
+    "yargs": "^14.0.0"
+  }
+}

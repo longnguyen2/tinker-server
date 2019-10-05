@@ -1,6 +1,5 @@
 node_modules/
 package-lock.json
-public/
 patch_process/service-account-file.json
 patch_process/config.js
 

@@ -27,6 +27,10 @@ app.get('/static-apk/:topic/:version/:name', (req, res) => {
 	}
 });
 
+app.get('/', (req, res) => {
+	res.end('This is tinker server');
+});
+
 app.listen(3000, (req, res) => {
 	console.log('Server is listening at port 3000');
 });

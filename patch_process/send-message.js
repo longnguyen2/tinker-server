@@ -14,10 +14,6 @@ exports.sendMessage = function sendMessage(option) {
     switch (command) {
         case "load_patch":
             message = {
-                notification: {
-                    title: 'Load new patch',
-                    body: 'A new patch is available and automatically updated'
-                },
                 data: {
                     command: command,
                     domain: option.domain
@@ -27,10 +23,6 @@ exports.sendMessage = function sendMessage(option) {
             break;
         case "clean_patch":
             message = {
-                notification: {
-                    title: 'Clean patch',
-                    body: 'Clean app patch and reverse to original app'
-                },
                 data: {
                     command: command,
                 },
@@ -39,10 +31,6 @@ exports.sendMessage = function sendMessage(option) {
             break;
         case "kill_process":
             message = {
-                notification: {
-                    title: 'Kill app',
-                    body: 'This app process is being killed'
-                },
                 data: {
                     command: command,
                 },
@@ -51,9 +39,6 @@ exports.sendMessage = function sendMessage(option) {
             break;
         case "load_library":
             message = {
-                notification: {
-                    title: 'Load library',
-                },
                 data: {
                     command: command,
                 },
